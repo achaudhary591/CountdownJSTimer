@@ -1,0 +1,75 @@
+/* ++++++++++++++++++++++++++++++++++
+global classes
+++++++++++++++++++++++++++++++++++ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ++++++++++++++++++++++++++++++++++
+heading
+++++++++++++++++++++++++++++++++++ */
+
+.heading {
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 2px 10px rgb(0 0 0 / 60%);
+}
+
+.main {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("images/image1.jpg");
+  max-width: 100%;
+  height: 100vh;
+}
+
+/* ++++++++++++++++++++++++++++++++++
+clock-content
+++++++++++++++++++++++++++++++++++ */
+
+.clock-content {
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(231, 216, 216, 0.3);
+}
+
+.date-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-input input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.clock-digits-row {
+  height: 25rem;
+}
+
+.clock-digit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 170px;
+}
+
+/* ++++++++++++++++++++++++++++++++++
+footer-content
+++++++++++++++++++++++++++++++++++ */
+.footer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(5, 0, 0, 0.692);
+}
